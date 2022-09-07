@@ -3,16 +3,20 @@
     padding: 0px;
 }
 
-
+section {
+    background-color: rgb(201, 172, 172);
+    display: inline-block;
+}
 p {
     color: blue;
     font-size: 20px;
     border: 1px solid black;
+    margin-top: 5px;
+    padding: 15px;
 }
 #contanier {
-    display: flex;
     align-items: center;
-
+    display: flex;
 
 }
 h1 {
@@ -20,6 +24,8 @@ h1 {
     font-size: 36px;
     text-align: center;
     background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 #s1 {
     padding: 1px 0px 15px 15px;
@@ -74,7 +80,9 @@ h2 :hover {
     background-color: rgba(212, 31, 31, 0.781);
     padding-top: 0px;
     margin-top: 0px;
+    margin-bottom: 20px;
     border: 1px solid black;
+    
 }
 
 #sp2 {
@@ -89,4 +97,57 @@ h2 :hover {
     padding-top: 0px;
     margin-top: 0px;
     border: 1px solid black;
+}
+
+
+/*
+@media (max-width: 800px) {}
+
+
+@media (min-width: 1200px) {
+    p {
+        width: 80%;
+
+    }
+
+}
+
+@media (orientation: portriat){}
+@media screen {}
+@media print
+@media (min-width: 768px) and (max-width: 991px) {
+    p {
+        width: 80%;
+
+    }
+
+}
+@media (max-width: 767px) ,  (min-width: 992px) {
+    p { width: 65%;
+
+}
+*/
+
+@media screen and (max-width: 600px){
+    #s1 {
+        display: block;
+        background-color: yellow;
+
+    }
+}
+
+@media screen and (max-width: 600px){
+    #s2 {
+        display: block;
+        background-color: yellow;
+
+    }
+}
+
+@media screen and (max-width: 600px){
+    #s3 {
+        display: block;
+        background-color: yellow;
+
+    }
 }
