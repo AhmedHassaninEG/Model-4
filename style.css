@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+p {
+    color: blue;
+    font-size: 20px;
+    border: 1px solid black;
+}
+#contanier {
+    display: flex;
+    align-items: center;
+
+
+}
+h1 {
+    color: green;
+    font-size: 36px;
+    text-align: center;
+    background-color: white;
+}
+#s1 {
+    padding: 1px 0px 15px 15px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin: 15px;
+    background-color: gray;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#s2 {
+    padding: 1px 0px 15px 15px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin: 15px;
+    background-color: gray;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#s3 {
+    padding: 1px 0px 15px 15px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin: 15px;
+    background-color: gray;
+    text-align: center;
+    border: 3px solid black;
+}
+
+h2 {
+    color: white;
+    text-align: right;
+    margin-right: 0px;
+    margin-top: 0px;
+    justify-content: center;
+}
+
+span {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+h2 :hover {
+    cursor: pointer;
+}
+
+
+#sp1 {
+    background-color: rgba(212, 31, 31, 0.781);
+    padding-top: 0px;
+    margin-top: 0px;
+    border: 1px solid black;
+}
+
+#sp2 {
+    background-color: rgb(126, 29, 29);
+    padding-top: 0px;
+    margin-top: 0px;
+    border: 1px solid black;
+}
+
+#sp3 {
+    background-color: rgb(107, 99, 99);
+    padding-top: 0px;
+    margin-top: 0px;
+    border: 1px solid black;
+}
