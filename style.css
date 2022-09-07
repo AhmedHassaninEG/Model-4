@@ -5,7 +5,6 @@
 
 section {
     background-color: rgb(201, 172, 172);
-    display: inline-block;
 }
 p {
     color: blue;
@@ -17,6 +16,8 @@ p {
 #contanier {
     align-items: center;
     display: flex;
+    height: auto;
+    width: auto;
 
 }
 h1 {
@@ -72,7 +73,7 @@ span {
     text-align: center;
 }
 h2 :hover {
-    cursor: pointer;
+    cursor: default;
 }
 
 
@@ -128,26 +129,38 @@ h2 :hover {
 }
 */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 992px){
+    #contanier {
+        flex-direction: row;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991){
+
+    #contanier {
+        flex-direction: row;
+        align-items: center;
+    }
     #s1 {
-        display: block;
-        background-color: yellow;
-
+        width: 40%;
+        flex-direction: row;
     }
-}
-
-@media screen and (max-width: 600px){
     #s2 {
-        display: block;
-        background-color: yellow;
-
+        width: 40%;
+        flex-direction: row;
     }
+    #s3 {
+        float: right;
+    }
+
+ 
 }
 
-@media screen and (max-width: 600px){
-    #s3 {
-        display: block;
-        background-color: yellow;
-
+@media (max-width: 767px){
+    #contanier {
+        flex-direction: column;
     }
+  
+
 }
