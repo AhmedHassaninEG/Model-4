@@ -1,203 +1,84 @@
-/* * {
-    margin: 0px;
-    padding: 0px;
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
 }
 
-section {
-    background-color: rgb(201, 172, 172);
-}
-p {
-    color: blue;
-    font-size: 20px;
-    border: 1px solid black;
-    margin-top: 5px;
-    padding: 15px;
-}
-#contanier {
-    align-items: center;
-    display: flex;
-    height: auto;
-    width: auto;
-
-}
-h1 {
-    color: green;
-    font-size: 36px;
-    text-align: center;
-    background-color: white;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-#s1 {
-    padding: 1px 0px 15px 15px;
-    padding-top: 0px;
-    margin-top: 0px;
-    margin: 15px;
-    background-color: gray;
-    text-align: center;
-    border: 3px solid black;
-}
-
-#s2 {
-    padding: 1px 0px 15px 15px;
-    padding-top: 0px;
-    margin-top: 0px;
-    margin: 15px;
-    background-color: gray;
-    text-align: center;
-    border: 3px solid black;
-}
-
-#s3 {
-    padding: 1px 0px 15px 15px;
-    padding-top: 0px;
-    margin-top: 0px;
-    margin: 15px;
-    background-color: gray;
-    text-align: center;
-    border: 3px solid black;
-}
-
-h2 {
-    color: white;
-    text-align: right;
-    margin-right: 0px;
-    margin-top: 0px;
-    justify-content: center;
-}
-
-span {
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-bottom: 5px;
-    text-align: center;
-}
-h2 :hover {
-    cursor: default;
-}
-
-
-#sp1 {
-    background-color: rgba(212, 31, 31, 0.781);
-    padding-top: 0px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    border: 1px solid black;
-    
-}
-
-#sp2 {
-    background-color: rgb(126, 29, 29);
-    padding-top: 0px;
-    margin-top: 0px;
-    border: 1px solid black;
-}
-
-#sp3 {
-    background-color: rgb(107, 99, 99);
-    padding-top: 0px;
-    margin-top: 0px;
-    border: 1px solid black;
-}
-
-
-/*
-@media (max-width: 800px) {}
-
-
-@media (min-width: 1200px) {
-    p {
-        width: 80%;
-
-    }
-
-}
-
-@media (orientation: portriat){}
-@media screen {}
-@media print
-@media (min-width: 768px) and (max-width: 991px) {
-    p {
-        width: 80%;
-
-    }
-
-}
-@media (max-width: 767px) ,  (min-width: 992px) {
-    p { width: 65%;
-
-}
-*/
-
-@media screen and (max-width: 992px){
-    #contanier {
-        flex-direction: row;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 991){
-
-    #contanier {
-        flex-direction: row;
-        align-items: center;
-    }
-    #s1 {
-        width: 40%;
-        flex-direction: row;
-    }
-    #s2 {
-        width: 40%;
-        flex-direction: row;
-    }
-    #s3 {
-        float: right;
-    }
-
- 
-}
-
-@media (max-width: 767px){
-    #contanier {
-        flex-direction: column;
-    }
-  
-
-}
- */
+/** HEADER **/
 #header-nav {
-    background-color: gray;
-    padding-left: 30px;
-    padding-top: 8px;
-    height: 60px;
-    font-weight: bold;
-    font-size: 25px;
-    border: solid 3px black ;
-    border-radius: 0;
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
 }
 
-
-#foodllc {
-    color: black;
+#logo-img {
+  background: url('../images/restaurant-logo_large.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
 }
 
-#menu {
-    text-align: center;
-    padding-top: 18px;
+.navbar-brand {
+  padding-top: 25px;
 }
 
-.con {
-    background-color: gray;
-    padding: 10px;
-    border: 2px solid black;
-    margin: 20px;
-
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
 }
 
-.item {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 5px;
-
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
 }
 
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
