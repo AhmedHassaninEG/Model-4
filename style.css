@@ -165,8 +165,7 @@ h2 :hover {
 
 }
  */
-
-header {
+#header-nav {
     background-color: gray;
     padding-left: 30px;
     padding-top: 8px;
@@ -174,7 +173,14 @@ header {
     font-weight: bold;
     font-size: 25px;
     border: solid 3px black ;
+    border-radius: 0;
 }
+
+
+#foodllc {
+    color: black;
+}
+
 #menu {
     text-align: center;
     padding-top: 18px;
@@ -184,6 +190,7 @@ header {
     background-color: gray;
     padding: 10px;
     border: 2px solid black;
+    margin: 20px;
 
 }
 
@@ -193,11 +200,4 @@ header {
     padding-bottom: 5px;
 
 }
-
-.des {
-    text-align: center;
-    
-
-}
-
 
