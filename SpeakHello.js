@@ -1,2 +1,2 @@
-var speakWord = "Hello";
+var speakWord = "Hello Mr Ramy";
 consol.loge=(speakWord);
